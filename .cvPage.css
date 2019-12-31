@@ -1,0 +1,47 @@
+img{
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+    vertical-align: left;
+    float 
+}
+
+
+.horizontal-list li {
+    display: inline;
+    margin: 20px;
+    font-family: "verdana";
+    font-size: 12px;
+}
+
+
+.buttons li{
+    display: inline;
+}
+
+body{
+    background-color: white;
+}
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+  
+.left {
+left: 0;
+background-color: rgb(128, 136, 170);
+}
+
+.right {
+right: 0;
+background-color: rrgb(128, 136, 170)ed;
+}
+    
