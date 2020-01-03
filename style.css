@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #ffffff;
+    font-family: Helvetica;
+}
+.profile-img
+{
+    width: 20%;
+    float: right;
+}
+.profile-img img
+{
+    height: 100%;
+    width: 100%;
+}
+.about
+{
+    margin-left: 15px;
+}
+.profile-info
+{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar
+{
+    width: 0px;
+}
+
+
+.profile-info h1
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.skillicons img
+{
+    height: 50px;
+}
+.skillicons
+{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.skills img
+{
+    width: 40%;
+    margin: 5px;
+} 
+.skills
+{
+   display: inline-block;
+   width: 28%;
+   padding: 30px 10px;
+   margin: 2%;
+   text-align: center; 
+   background: FAFAFA;
+}
+.skills small
+{
+    padding-top: 10px;
+    display: block;
+    font-family: Helvetica;
+    font-size: 10px;
+}
+
+
+ 
+.githubbar img
+{
+    width: 30%;
+    margin: 5px;
+} 
+
+.githubbar small
+{
+    padding-top: 10px;
+    display: block;
+    font-family: Helvetica;
+    font-size: 10px;
+}
+.githubbar
+{
+   width: 100%;
+   padding: 30px 10px;
+   margin: 2%;
+   text-align: left; 
+}
