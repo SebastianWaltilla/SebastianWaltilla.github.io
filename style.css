@@ -9,21 +9,34 @@ body
     background: #ffffff;
     font-family: Helvetica;
 }
-.profile-img
+
+
+
+
+.profileContactSide
 {
-    width: 30%;
+    width: 20%;
     float: right;
 }
-.profile-img img
+.profileContactSide img
 {
-    height: 30%;
-    width: 30%;
+    
+    height: 70%;
+    width: 70%;
 }
-.about
+.contacticons img
 {
+    margin-top: 15px;
     margin-left: 15px;
-    width: 10%;
+    height: 30px;
+    width: 30px;
 }
+
+
+
+
+
+
 .profile-info
 {
     width: 60%;
@@ -36,6 +49,13 @@ body
 .profile-info::-webkit-scrollbar
 {
     width: 0px;
+}
+.about
+{
+    margin-left: 15px;
+    text-align: left; 
+    float: left;
+    font-size: 10px;
 }
 
 
@@ -79,7 +99,8 @@ body
  
 .githubbar img
 {
-    width: 30%;
+    width: 60%;
+    height: 60%;
     margin: 5px;
 } 
 
@@ -96,4 +117,5 @@ body
    padding: 30px 10px;
    margin: 2%;
    text-align: left; 
+   background: FAFAFA;
 }
