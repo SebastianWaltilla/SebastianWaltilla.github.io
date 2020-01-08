@@ -15,9 +15,11 @@ body
 .profileContactSide
 {
 position: fixed;
-    width: 75%;
+    width: 100%;
+    height: 20%;
     margin: auto;
     float: top;
+    
 }
 .profileContactSide img
 {
@@ -34,16 +36,33 @@ position: fixed;
 }
 .profileContactSide small
 {
-  width: 25%;
   font-size: 8;
 }
-.profile-info h3
+
+
 {
-    margin-top: 15px;
-    margin-left: 15px;   
+    
+    width: 60%;
+    margin-left: 15px;
+    text-align: left; 
+    float: left;
+    font-size: 10px; 
+}
+.profileContactSide
+{ 
+    width:100%;
+    height:25%;
+    background-color: white;
+    float: center;
 }
 
 
+
+.ProfilePic img
+{
+    height: 10%;
+    widows: 10%  ;
+}
 
 
 .githubbar img
@@ -82,26 +101,14 @@ position: fixed;
     float: left;
     overflow: scroll;
     overflow-x: hidden;
-    margin-top: 200px;
+    margin-top: 25%;
 }
 .profile-info::-webkit-scrollbar
 {
     width: 0px;
 }
-.about
-{
-    width: 60%;
-    margin-left: 15px;
-    text-align: left; 
-    float: left;
-    font-size: 10px; 
-}
-.profileContactSide
-{ 
-    width:600px;
-    height:200px;
-    background-color: white;
-}
+
+
 
 
 
