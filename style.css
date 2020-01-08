@@ -96,12 +96,12 @@ position: fixed;
 
 .profile-info
 {
-    width: 75%;
+    width: 100%;
     margin: auto;
     float: left;
     overflow: scroll;
     overflow-x: hidden;
-    margin-top: 25%;
+    margin-top: 26%;
 }
 .profile-info::-webkit-scrollbar
 {
