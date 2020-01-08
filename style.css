@@ -82,7 +82,7 @@ position: fixed;
     float: left;
     overflow: scroll;
     overflow-x: hidden;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 .profile-info::-webkit-scrollbar
 {
@@ -97,9 +97,9 @@ position: fixed;
     font-size: 10px; 
 }
 .profileContactSide
-{
+{ 
     width:600px;
-    height:250px;
+    height:200px;
     background-color: white;
 }
 
