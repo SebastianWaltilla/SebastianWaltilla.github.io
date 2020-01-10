@@ -21,6 +21,7 @@ body
     height:25%;
     background-color: white;
     float: center;
+    max-width: 720px;
     
 }
 .profileContactSide img
@@ -92,6 +93,8 @@ body
     overflow: scroll;
     overflow-x: hidden;
     margin-top: 26%;
+    max-width: 720px;
+
 }
 .profile-info::-webkit-scrollbar
 {
