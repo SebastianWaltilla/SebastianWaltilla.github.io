@@ -12,23 +12,39 @@ body
 
 
 
-
-.profileContactSide
+.profileContactTop
 {
     position: fixed;    
     float: top;
     width:100%;
-    height:25%;
+    height:15%;
     background-color: white;
-    float: center;
-    max-width: 720px;
+    max-width: 600px;
+
     
 }
-.profileContactSide img
+.profileContactTop img
 {
     float: top;
     height: 10%;
     width: 10%;
+}
+.profileContactTop small
+{
+  font-size: 8;
+}
+.ProfilePic img
+{
+    height: 10%;
+    widows: 10%  ;
+}
+
+
+
+
+.contacticons
+{
+    position: center;
 }
 .contacticons img
 {
@@ -37,23 +53,12 @@ body
     height: 5%;
     width: 5%;
 }
-.profileContactSide small
-{
-  font-size: 8;
-}
-
-.profileContactSide
-{ 
-
-}
 
 
 
-.ProfilePic img
-{
-    height: 10%;
-    widows: 10%  ;
-}
+
+
+
 
 
 .githubbar img
@@ -89,11 +94,11 @@ body
 {
     width: 100%;
     margin: auto;
-    float: left;
+    float: center;
     overflow: scroll;
     overflow-x: hidden;
-    margin-top: 26%;
-    max-width: 720px;
+    margin-top: 15%;
+    max-width: 600px;
 
 }
 .profile-info::-webkit-scrollbar
