@@ -13,18 +13,7 @@ body
 
 
 
-.background 
-{
-    position:absolute;
-   width: 600px;
-    z-index: 2;
-}
-.waltillalogo 
-{
-    position:absolute;
 
-    z-index: 1;
-}
 
 
 
@@ -51,7 +40,7 @@ body
 .ProfilePic img
 {
     height: 10%;
-    widows: 10%  ;
+    widows: 10%;
 }
 
 
