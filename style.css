@@ -16,19 +16,25 @@ body
 
 
 
-.waltillaDevBanner
+.waltillaDevBanner img
 {
-    width: 100%;
-    height: 100%; 
-    position: center;
-    
+    max-width: 600px;
+    display: inline-block
+
+
 }
 
+.firstInfo img
+{
+    width: 20%;
+    height: 20%;
+    position: center;
+}
 
 .profileContactTop
 {
  
-
+    float: center;
     background-color: white;
     max-width: 600px;
 
