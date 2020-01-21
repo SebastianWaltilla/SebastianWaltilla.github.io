@@ -30,89 +30,6 @@ body
 
 }
 
-.firstInfo img
-{
-    width: 20%;
-    height: 20%;
-    position: center;
-}
-
-.profileContactTop
-{
- 
-    float: center;
-    background-color: white;
-    max-width: 700px;
-
-    
-}
-.profileContactTop img
-{
-
-    height: 10%;
-    width: 10%;
-}
-.profileContactTop small
-{
-  font-size: 8;
-}
-.ProfilePic img
-{
-    height: 10%;
-    widows: 10%;
-}
-
-
-
-
-.contacticons
-{
-    position: center;
-}
-.contacticons img
-{
-    margin-top: 15px;
-    margin-left: 15px;
-    height: 5%;
-    width: 5%;
-}
-
-
-
-
-
-
-
-
-.githubbar img
-{
-    width: 60%;
-    height: 60%;
-    margin: 5px;
-    float: center;
-
-} 
-
-.githubbar small
-{
-    width: 60%;
-    padding-top: 10px;
-    display: block;
-    font-family: Helvetica;
-    font-size: 10px;
-}
-.githubbar
-{
-   width: 100%;
-   padding: 30px 10px;
-   margin: 2%;
-   text-align: left; 
-   background: FAFAFA;
-}
-
-
-
-
 .profile-info
 {
     width: 100%;
@@ -130,15 +47,80 @@ body
 
 
 
-
-
-
-
-.profile-info h1
+.contactIcons
 {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    float: center;
+    background-color: white;
+    max-width: 800px;   
 }
+.contactIcons img
+{
+    height: 10%;
+    width: 10%;
+}
+.contactIcons small
+{
+  font-size: 8;
+}
+
+
+
+
+
+
+
+
+.sebastianInfo img
+{
+    width: 30%;
+    margin: 5px;
+} 
+.sebastianInfo
+{
+   display: inline-block;
+   width: 100%;
+   padding: 30px 10px;
+   margin: 2%;
+   text-align: center; 
+   background: FAFAFA;
+}
+.sebastianInfo small
+{
+    padding-top: 10px;
+    display: block;
+    font-family: Helvetica;
+    font-size: 10px;
+}
+
+
+
+
+
+.gitPush img
+{
+    width: 80%;
+    margin: 5px;
+} 
+.gitPush
+{
+   display: inline-block;
+   width: 100%;
+   padding: 30px 10px;
+   margin: 2%;
+   text-align: center; 
+   background: FAFAFA;
+}
+.gitPush small
+{
+    padding-top: 10px;
+    display: block;
+    font-family: Helvetica;
+    font-size: 10px;
+}
+
+
+
+
 .skillicons img
 {
     padding-top: 10px;    
@@ -150,12 +132,18 @@ body
     margin-top: 20px;
     margin-left: 15px;
 }
-.skills img
+
+
+
+
+
+
+.javaSkills img
 {
-    width: 50%;
+    width: 90%;
     margin: 5px;
 } 
-.skills
+.javaSkills
 {
    display: inline-block;
    width: 100%;
@@ -164,7 +152,7 @@ body
    text-align: center; 
    background: FAFAFA;
 }
-.skills small
+.javaSkills small
 {
     padding-top: 10px;
     display: block;
@@ -173,5 +161,28 @@ body
 }
 
 
- 
+
+
+
+.pizzaSkills img
+{
+    width: 30%;
+    margin: 5px;
+} 
+.pizzaSkills
+{
+   display: inline-block;
+   width: 100%;
+   padding: 30px 10px;
+   margin: 2%;
+   text-align: center; 
+   background: FAFAFA;
+}
+.pizzaSkills small
+{
+    padding-top: 10px;
+    display: block;
+    font-family: Helvetica;
+    font-size: 10px;
+}
 
