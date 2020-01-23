@@ -44,37 +44,25 @@ body
 {
     width: 0px;
 }
+.profile-info h3
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 
 
 .contactIcons
 {
-    float: center;
     background-color: white;
     max-width: 800px;   
 }
 .contactIcons img
 {
     height: 50px;
-
-}
-.contactIcons small
-{
-  font-size: 8;
 }
 
 
-
-
-
-
-
-
-.sebastianInfo img
-{
-    width: 30%;
-    margin: 5px;
-} 
 .sebastianInfo
 {
    display: inline-block;
@@ -84,6 +72,7 @@ body
    text-align: center; 
    background: FAFAFA;
 }
+
 .sebastianInfo small
 {
     padding-top: 10px;
@@ -91,6 +80,11 @@ body
     font-family: Helvetica;
     font-size: 10px;
 }
+.sebastianInfo img
+{
+    width: 30%;
+    margin: 5px;
+} 
 
 
 
@@ -184,5 +178,34 @@ body
     display: block;
     font-family: Helvetica;
     font-size: 10px;
+}
+
+
+
+
+
+.prepreviousEmploymentWapper
+{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 2%;
+    text-align: center; 
+    background: FAFAFA;  
+}
+.rightSide small
+{
+    padding-top: 10px;
+    display: block;
+    font-family: Helvetica;
+    font-size: 10px;
+}
+.leftSide
+{
+    float: left;
+}
+.leftSide img
+{
+    width: 50px;
 }
 
