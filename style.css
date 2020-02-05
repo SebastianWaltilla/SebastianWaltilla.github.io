@@ -184,28 +184,26 @@ body
 
 
 
+
+
+.prepreviousEmploymentWapper img
+{
+    width: 90%;
+    margin: 5px;
+} 
 .prepreviousEmploymentWapper
 {
-    display: inline-block;
-    width: 100%;
-    padding: 10px 10px;
-    margin: 2%;
-    text-align: center; 
-    background: FAFAFA;  
+   display: inline-block;
+   width: 100%;
+   padding: 10px 10px;
+   margin: 2%;
+   text-align: center; 
+   background: FAFAFA;
 }
-.rightSide small
+.prepreviousEmploymentWapper small
 {
     padding-top: 10px;
     display: block;
     font-family: Helvetica;
     font-size: 10px;
 }
-.leftSide
-{
-    float: left;
-}
-.leftSide img
-{
-    width: 50px;
-}
-
