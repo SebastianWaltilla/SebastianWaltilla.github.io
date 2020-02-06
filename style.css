@@ -85,11 +85,13 @@ body
 .sebastianInfo img
 {
     width: 30%;
-    margin: 5px;
+    margin: 5px;s
 } 
 
 
-
+.lia img{
+    width: 60%;
+}
 
 
 .gitPush img
