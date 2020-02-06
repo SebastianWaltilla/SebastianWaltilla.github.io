@@ -76,6 +76,8 @@ body
 .sebastianInfo small
 {
     padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
     display: block;
     font-family: Helvetica;
     font-size: 10px;
@@ -107,6 +109,8 @@ body
 .gitPush small
 {
     padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
     display: block;
     font-family: Helvetica;
     font-size: 10px;
@@ -147,7 +151,8 @@ body
    background: FAFAFA;
 }
 .javaSkills small
-{
+{    padding-left: 3%;
+    padding-right: 3%;
     padding-top: 10px;
     display: block;
     font-family: Helvetica;
@@ -174,7 +179,9 @@ body
 }
 .pizzaSkills small
 {
-    padding-top: 10px;
+    padding-top: 10px;  
+     padding-left: 3%;
+    padding-right: 3%;
     display: block;
     font-family: Helvetica;
     font-size: 10px;
@@ -182,48 +189,3 @@ body
 
 
 
-
-
-.prepreviousEmploymentWapper
-{
-    display: inline-block;
-    width: 100%;
-    padding: 10px 10px;
-    margin: 2%;
-    text-align: center; 
-    background: FAFAFA;  
-}
-.rightSide small
-{
-    padding-top: 10px;
-    display: block;
-    font-family: Helvetica;
-    font-size: 10px;
-}
-.prepreviousEmploymentWapper img
-{
-    width: 50px;
-}
-
-
-.prepreviousEmploymentWapper img
-{
-    width: 90%;
-    margin: 5px;
-} 
-.prepreviousEmploymentWapper
-{
-   display: inline-block;
-   width: 100%;
-   padding: 10px 10px;
-   margin: 2%;
-   text-align: center; 
-   background: FAFAFA;
-}
-.prepreviousEmploymentWapper small
-{
-    padding-top: 10px;
-    display: block;
-    font-family: Helvetica;
-    font-size: 10px;
-}
