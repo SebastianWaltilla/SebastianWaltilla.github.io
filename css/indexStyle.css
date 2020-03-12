@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap'); /*font download from google */
+
+
+body{ /*  */
+    font-family: 'Open Sans', sans-serif;
+}
+h1{/*  */
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+}
+h2{/*  */
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+}
+p{/*  */
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.swimg{
+    height: auto;
+    width: 100%;
+}
+.img_icon{
+    height: 100%;
+}
+.img_sw{
+   padding: 100px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 50px auto auto;
+    grid-template-areas:
+    "header"
+    "navigation"
+    "main-content"
+    "footer";
+    grid-gap: 20px;
+}
+
+header{
+    grid-area: header;
+    margin: 0 auto;
+}
+
+
+nav{
+    grid-area: navigation;
+    background-color: #ccc;
+    text-align: center;
+}
+nav.nav_list{
+    background-color: white;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    grid-area: main-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+main article{
+    background-color: white;
+    padding: 20px;
+}
+
+footer{
+    grid-area: footer;
+    background-color: white;
+}
+
+
+
+
+
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+    body{
+        background-color: white;
+    }
+
+    section.grid-container{
+        width: 1000px;
+        margin: 20px auto;
+    }
+
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img_sw{
+        padding: 100px;
+    }
+
+
+
+}
+

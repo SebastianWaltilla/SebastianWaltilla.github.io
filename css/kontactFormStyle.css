@@ -1,0 +1,10 @@
+/* https://www.w3schools.com/css/css_table.asp */
+
+table, th, td {
+    padding: 3px;
+    text-align: left;
+}
+
+td:hover {
+    background-color: #4393B5;
+}

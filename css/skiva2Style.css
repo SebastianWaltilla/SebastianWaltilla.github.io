@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+
+body{
+    font-family: Arial;
+    background: white;
+}
+
+h1{
+    font-family: Georgia;
+}
+p{
+    font-family: Arial;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

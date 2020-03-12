@@ -1,119 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>www.waltilla.com Sebastian Waltilla CV and Contact info</title>
-    <link rel="stylesheet" href="style.css"/>
     <meta charset="UTF-8">
+    <title>CSS Grid - Responsive</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/indexStyle.css" />
 </head>
-
-
-
-
-
 <body>
 
-    
-    <!--     WALTILLA JAVA_DEV banner     -->  
-    <div class="waltillaDevBanner">
-        <img src="waltillaDev.jpg">
+<section class="grid-container">
+    <header>
+       <img src="img/waltillaDev.jpg" alt="waltillalogo" class="img_icon">
+    </header>
 
-    </div>
-  
-    <div class="profile-info">
+    <nav class="nav_list">
+        <a href="https://github.com/SebastianWaltilla">
+            <img src="icon/github.jpg" alt="Github icon" class="img_icon"></a>
+        <a href="https://www.linkedin.com/in/sebastian-waltilla-4b554119a/">
+            <img src="icon/in.jpg" alt="LinkedIn icon" class="img_icon"></a>
+        <a href="mailto:sebastian@waltilla.com">
+            <img src="icon/mailjpg.jpg" alt="Mail icon" class="img_icon"></a>
+        <a href=tel:+46704085005">
+            <img src="icon/phone.jpg" alt="PhoneNumber icon" class="img_icon" ></a>
+    </nav>
 
-     <!--     Allt under den fasta rutan  -->     
-
-        <div class="contactIcons">
-               
-                <a href="https://github.com/SebastianWaltilla">
-                    <img  alt="nothing" src="giticon.png">
-                </a>
-                
-                <a href="https://www.linkedin.com/in/sebastian-waltilla-4b554119a/">
-                    <img  alt="nothing" src="linkedinicon.png">
-                </a>
-                
-                <a href="mailto:sebastian@waltilla.com">
-                    <img  alt="nothing" src="mailicon.png">
-                </a>
-                
-                <a href="tel:+46704085005">
-                    <img  alt="nothing" src="phoneIcon.pgn.png">
-                </a>            
-        
-    
-        </div>
-                    <!--
-                    Allt under den fasta rutan
-                -->  
-
-        <div class= "sebastianInfo">
-
-            <div class = "sebpicture">
-                <img src="swbild - Copy.png">
-            </div>
+    <!-- contact icons -->
+    <ul>
 
 
-            <h3> Sebastian Waltilla</h3>
 
-            <small>  Läser till Java-utvecklare på IT-Högskolan och 
-                söker praktikplats för min första LIA(Lärande I Arbete) augusti 2020 (v.33).
-               
-            </small>   
-       
- 
-            
-            <small>  
-                               
-            </small>
+    </ul>
 
-            <small></small>
-
-            <h3> Om utbildning och LIA</h3>
-            <small>  
-                Under min utbildning har jag två LIA perioder pågår under totalt 24 veckor. LIA perioden avslutas med 4 veckor projektarbete som skall ske på ert företag. 
-            </small>
-            <small>
-                Passa på att få in en intresserad utvecklare. Som ni under 24 veckor har möjlighet att skola in i er kodbas samt de tekniker som ni använder.
-            </small>
-
-            <small>
-                För arbetslivserfarenhet se LinkedIn, för vad som händer under min utbildning, se Github samt under utbildning på LinkedIn. 
-            </small>
-
-            <small>
-                Undrar du något, slå en signal! 
-                ps. har du gott kaffe, pizza eller ett gobräde kommer jag ultra snabbt!
-            </small>
-            
-
-         
-
-        </div>  
+    <main>
 
 
-            <!--
-                Allt under den fasta rutan
-            -->  
+        <article class="img_sw">
+            <img src="img/SWCV.jpg" alt="waltillalogo"  class="swimg">
+        </article>
+
+        <article>
+
+            <h1>Hej! Jag heter Sebastian Waltilla</h1>
+
+            <p> Söker en praktikplats för LIA, där jag kan få utvecklas i min kommande yrkesroll som utvecklare perioden v. 33-40, 2020.
+
+
+
+            </p>
+
+
+            <p>                Studerar på IT-högskolan och har nu kommit en bit på vägen för att bli utvecklare. Höstterminen bestod av databashantering med microsoft SQL samt mongoDB,  grundläggande javasyntax med testning (Junit5) samt olika byggmiljöer. Våren har fokuserats på micro service arkitektur i Spring boot med enhets- och integrationstester och fortsätter med frontendutveckling  (HTML, CSS och Javascipt(Vue)) samt agil arbetsmetodik.
+            </p>
+            <p>      Jag är en driven person med vana att arbeta i tvärvetenskapligateam och gillar att lära mig nytt, vilikes ses under utbildning. Nu har jag hittat rätt! Som utvecklare kommer jag ha möjlighet att lära mig nya tekniker och språk löpande, samt få bygga applikationer där endast kunskap och kreativitet sätter gränser.
+                Gillar gott kaffe och trevliga arbetskollegor. Hoppas få bygga roliga och användbara applikationer med er!
+            </p>
+            <p> Get more info @ www.waltilla.com</p>
+            <p>Alt slå en signal på 0704-085005 eller via sebastian@waltilla.com</p>
+        </article>
+
+
+
+        <article>
+            <h1>Rubrik 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae commodi deleniti dolorem,
+                doloremque eveniet expedita impedit incidunt inventore officiis pariatur provident,
+                quam quisquam repudiandae sapiente sed, sequi voluptas voluptates!</p>
+        </article>
 
 
 
 
+        <article>
+            <h1>Rubrik 4</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae commodi deleniti dolorem,
+                doloremque eveniet expedita impedit incidunt inventore officiis pariatur provident,
+                quam quisquam repudiandae sapiente sed, sequi voluptas voluptates!</p>
+        </article>
+    </main>
 
+    <footer>
+        <p>sebastian@waltilla.com</p>
+        <p>tel 0704-085005</p>
+    </footer>
 
-  
-
-
-
-           
-        
- </div>   
-
-
- 
- 
-
+</section>
 </body>
 </html>
