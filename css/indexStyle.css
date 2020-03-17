@@ -1,32 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap'); /*font download from google */
 
-
-body{ /*  */
-    font-family: 'Open Sans', sans-serif;
-}
+/* ---------------------Fonts--------------- */
 h1{/*  */
     font-family: 'Merriweather', serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 h2{/*  */
     font-family: 'Merriweather', serif;
-    font-size: 35px;
+    font-size: 25px;
+}
+body{ /*  */
+    font-family: 'Open Sans', sans-serif;
 }
 p{/*  */
     font-size: 18px;
     line-height: 160%;
 }
 
-.swimg{
-    height: auto;
-    width: 100%;
-}
-.img_icon{
-    height: 100%;
-}
-.img_sw{
-   padding: 100px;
-}
+/* ------------ Mobile first, css settings for mobile ------------ */
 section{
     display: grid;
     grid-template-columns: 1fr;
@@ -38,72 +29,82 @@ section{
     "footer";
     grid-gap: 20px;
 }
-
 header{
     grid-area: header;
     margin: 0 auto;
 }
-
-
 nav{
     grid-area: navigation;
     background-color: #ccc;
     text-align: center;
+    flex-direction: row;
 }
 nav.nav_list{
     background-color: white;
+    flex-direction: row;
+}
+.nav_icon{
+    height: 50px;
+    width: auto;
 }
 a {
     font-size: 18px;
     text-decoration: none;
 }
-
 a:hover{
     text-decoration: underline;
 }
-
 main{
     grid-area: main-content;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
 }
-
 main article{
     background-color: white;
     padding: 20px;
 }
-
 footer{
     grid-area: footer;
     background-color: white;
 }
 
+/*--------------------------------- img. on mobile ------------------------*/
+.swimg{
+    height: auto;
+    width: 100%;
+}
 
-
-
-
+.img_sw{
+    padding: 50px;
+}
+.DevBannerImg{
+    height: auto;
+    width: 100%;
+}
 
 /* Desktop */
 @media screen and (min-width: 1025px) {
     body{
         background-color: white;
     }
-
     section.grid-container{
-        width: 1000px;
-        margin: 20px auto;
+        width: 1100px;
+        margin: 0 auto;
     }
-
     main{
         grid-template-columns: 1fr 1fr;
+    }
+    .img_sw{
+        padding: 100px;
+    }
+    .swimg{
+        height: auto;
+        width: 100%;
     }
 
     .img_sw{
         padding: 100px;
     }
-
-
-
 }
 
