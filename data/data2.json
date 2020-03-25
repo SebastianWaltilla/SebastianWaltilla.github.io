@@ -1,0 +1,24 @@
+{
+  "products": [
+  {
+      "hyperLink": "https://github.com/SebastianWaltilla",
+      "src": "icon/github.jpg",
+      "class": "nav_icon"
+  },
+  {
+    "hyperLink": "https://www.linkedin.com/in/sebastian-waltilla-4b554119a/",
+    "src": "icon/in.jpg",
+    "class": "nav_icon"
+  },
+  {
+    "hyperLink": "mailto:sebastian@waltilla.com",
+    "src": "icon/mailjpg.jpg",
+    "class": "nav_icon"
+  },
+  {
+    "hyperLink": "tel:+46704085005",
+    "src": "icon/phone.jpg",
+    "class": "nav_icon"
+  }
+  ]
+}

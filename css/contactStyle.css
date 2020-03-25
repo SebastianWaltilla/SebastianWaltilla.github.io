@@ -1,0 +1,24 @@
+p{
+  text-align: left;
+}
+div.main2{
+  grid-gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto ;
+  text-align: center;
+  grid-area: main-content;
+  padding: 15px;
+}
+@media screen and (min-width: 1025px) {
+
+  div.main2 {
+    grid-gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    grid-area: main-content;
+    padding: 15px;
+  }
+}

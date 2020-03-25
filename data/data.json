@@ -1,0 +1,86 @@
+{
+  "products": [
+  {
+      "title": "Java",
+      "hyperLink": "https://github.com/SebastianWaltilla",
+      "alt": "link to github: https://github.com/SebastianWaltilla",
+      "src": "skills/javaicon.png",
+      "class": "skills_img",
+      "infoText": "Mitt huvudspråk är java. Stor vikt har lagts till att förstå grundläggande javasyntax med objektorienterat fokus.Vi har bland annat fått testa olika patterns, SOLID och TTD."
+  },
+  {
+      "title": "Spring Boot",
+      "hyperLink": "https://github.com/SebastianWaltilla/ITHS-Course-4-Webservices-Lab2-H2Database",
+      "alt": "link to https://github.com/SebastianWaltilla/ITHS-Course-4-Webservices-Lab2-H2Database",
+      "title": "Spring Boot",
+      "src": "skills/spring.png",
+      "class": "skills_img",
+      "infoText": "I kursen webservices har jag fått bekanta mig med Spring Boot. Första uppgiften bestod av att bygga en webserver med grundläggande get/set utan Spring. Andra uppgiften bestod av att bygga ett REST api i form av microservice med en h2 databas i Spring Boot. Nu förstår jag hur kraftfullt webutveckling med spring är, det går snabbt att bygga otroligt användbar backend!"
+  },
+  {
+    "title": "mongoDB",
+    "hyperLink": "https://github.com/SebastianWaltilla/ITHS-Course-2-Databases-mongoDB",
+    "alt": "link to https://github.com/SebastianWaltilla/ITHS-Course-2-Databases-mongoDB",
+    "src": "skills/mongoDB.png",
+    "class": "skills_img",
+    "infoText": "Efter att ha använt SQL upplevs noSQL som att glida på en räkmacka. Sättet att lagra information i json filer känns bra mycket smidigare. MongoDB var verkligen en hit! Samt är till stor hjälp under nuvarande webapplikations kurs där vi skiver mycket kod i Javascript och lagrar information (som denna text) json filter"
+  },
+    {
+      "title": "Javascript",
+      "hyperLink": "https://https://sebastianwaltilla.github.io/",
+      "alt": "https://sebastianwaltilla.github.io/",
+      "src": "skills/JS5.png",
+      "class": "skills_img",
+      "infoText": "Denna hemsida är skriven från grunden i HTML, CSS och Javascript 5. Mycket av sidans information visas med fetch med snygg visning med Grid i (en stökig) CSS fil. Jobbar nu på en webshop med full funktionallitet där produkter läggs i en kundkorg med hjälp av local storage mm. Kika in www.sebastianwaltilla.se för att se hur detta fortskrider"
+    },
+    {
+      "title": "Microsoft SQL server",
+      "hyperLink": "https://github.com/SebastianWaltilla/ITHS-Course-2-Databases-MSSQL",
+      "alt": "link to https://github.com/SebastianWaltilla/ITHS-Course-2-Databases-MSSQL",
+      "src": "skills/mssqlicon.png",
+      "class": "skills_img",
+      "infoText": "Vi har fått bekanta oss med MS SQL, ställt querrys och fått en känsla hur relationsdatabaser fungerar.Sett över nivå på användare samt kopplat en java applikation till en lokal server (detta ses under titania game (spelet funkar inte, men koppling till server gör/gjorde)"
+    },
+  {
+    "title": "Maven",
+    "hyperLink": "https://github.com/SebastianWaltilla/ITHS-Course-4-Webservices-JavaWebserver",
+    "alt": "link to https://github.com/SebastianWaltilla/ITHS-Course-4-Webservices-JavaWebserver",
+    "src": "skills/mavenicon.png",
+    "class": "skills_img",
+    "infoText": "Maven underlättar verkligen byggandet, att enkelt ladda hem dependencies är en fröjd! I länken använder vi dependencies för hantering av parsning av json filer till vår egenskrivna webserver"
+  },
+
+  {
+    "title": "Git",
+    "hyperLink": "https://github.com/SebastianWaltilla",
+    "alt": "link to https://github.com/SebastianWaltilla",
+    "src": "skills/github.png",
+    "class": "skills_img",
+    "infoText": "Vi har fått testa på både github och gitlab. Vi kör våra commits i intellij med hjälp av gitbash, vi kommer under vår agila kurs få skriva mer kod ihop och ja, förväntar mig mergeconflicts ;)"
+  },
+  {
+    "title": "Intellij",
+    "hyperLink": "https://github.com/SebastianWaltilla?tab=repositories",
+    "alt": "link to https://github.com/SebastianWaltilla?tab=repositories",
+    "src": "skills/intellijicon.png",
+    "class": "skills_img",
+    "infoText": "Förstår att vissa kör Eclipse, men vi har kört Intelliji sedan dag 1. Uppskattar highlights och hur väl git är integrerat i intellij. Sitter nu med ultimate edition för att ha tillgång till spring. "
+  },
+  {
+    "title": "Arduino",
+    "hyperLink": "https://github.com/SebastianWaltilla/Arduino-for-fun-Pizzza-logger",
+    "alt": "link to https://github.com/SebastianWaltilla/Arduino-for-fun-Pizzza-logger",
+    "src": "skills/Arduino.png",
+    "class": "skills_img",
+    "infoText": "Har byggt en pizzadegsjäsare som loggar tid, höjd och temperatur för att få den perfekta degen. Tanken är att bygga ut med en låda (med kylning) för att styra jästiden på pizzadegen via en webapp med java-backend i spring, sker sommarn 2020!"
+  },
+  {
+    "title": "Vue",
+    "hyperLink": "does not compute",
+    "alt": "link to https://vuejs.org/",
+    "src": "skills/VUE.png",
+    "class": "skills_img",
+    "infoText": "Vi kommer i nuvarande kurs få lära oss att skriva backend och webserver i Vue, återkom för demo!"
+  }
+  ]
+  }
