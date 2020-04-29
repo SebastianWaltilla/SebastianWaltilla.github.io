@@ -80,7 +80,7 @@
     "alt": "link to https://vuejs.org/",
     "src": "skills/VUE.png",
     "class": "skills_img",
-    "infoText": "Vi kommer i nuvarande kurs få lära oss att skriva backend och webserver i Vue, återkom för demo!"
+    "infoText": "Vi kommer i nuvarande kurs få lära oss att skriva backend i node, och hantera frontend med vue. Det projekt vi börjar på denna vecka (18), skall upp på heroku. återkom för demo!"
   }
   ]
   }
